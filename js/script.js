@@ -125,7 +125,7 @@ wow.init();
 	            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
 	            if (target.length) {
 	                $('html,body').animate({
-	                	scrollTop: (target.offset().top - 65)//top navigation height
+	                	scrollTop: (target.offset().top - 62)//top navigation height
 	                }, 1000);
 	                return false;
 	            }
