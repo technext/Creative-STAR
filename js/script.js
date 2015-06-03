@@ -89,10 +89,6 @@ $(document).ready(function($) {
       itemSelector: '.works-single-item'
 	});
 
-    $(window).load(function(){
-        $container.isotope('reLayout');
-    });
-
 	// filter items on button click
 	$('#filters').on( 'click', 'button', function() {
 	  var filterValue = $(this).attr('data-filter');
