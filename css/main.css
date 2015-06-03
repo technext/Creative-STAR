@@ -141,10 +141,9 @@ a.logo:hover
 	background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    min-height: 100vh;
+    height: 100vh;
     position: relative;
     display: table;
-	height: 100%;
 	width: 100%;
 	color: #fff;
 	text-transform: uppercase;
