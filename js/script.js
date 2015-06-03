@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function($) {
 
 /*=================================
 ||			add/remove Class
@@ -82,11 +82,17 @@ $(document).ready(function() {
 /*=================================
 ||			Isotope
 ==================================*/
+
 	// init Isotope
 	var $container = $('#works_container').isotope({
 	  // options
       itemSelector: '.works-single-item'
 	});
+
+    $(window).load(function(){
+        $container.isotope('reLayout');
+    });
+
 	// filter items on button click
 	$('#filters').on( 'click', 'button', function() {
 	  var filterValue = $(this).attr('data-filter');
