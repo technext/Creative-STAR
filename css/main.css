@@ -392,8 +392,8 @@ a.logo:hover
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	/*background: rgba(230, 78, 80, 0.35);*/
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(230, 78, 80, 0.35);
+	/*background: rgba(0, 0, 0, 0.6);*/
 	opacity: 0;
 	top: 0;
 	left: 0;
@@ -447,13 +447,6 @@ button.active, button.filters-button:hover, button.filters-button:active, button
 	color: #e64e4e;
 	border: 1px solid #e64e4e;
 }
-/*.nivo-lightbox-image img
-{
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-}*/
 .works .wrapper
 {
 	padding-bottom: 0px;
@@ -498,7 +491,7 @@ button.active, button.filters-button:hover, button.filters-button:active, button
 .meet-item:hover .meet-icons
 {
 	opacity: 1;
-	transition: .8s;
+	transition: all .8s;
 }
 .meet-item img
 {
@@ -605,9 +598,9 @@ button.active, button.filters-button:hover, button.filters-button:active, button
 }
 ul.social-icons
 {
-  padding: 0;
-  margin-top: 30px;
-  /* float: left; */
+	padding: 0;
+	margin-top: 30px;
+	float: left;
 }
 ul.social-icons li
 {
@@ -618,7 +611,6 @@ ul.social-icons li
 ul.social-icons i
 {
     color: rgb(230, 77, 105);
-    /*border-radius:100%;*/
     display:block;
     width: 50px;
     height: 50px;
