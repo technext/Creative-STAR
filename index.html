@@ -1,527 +1,817 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/star.png" type="favicon/ico" />
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Creative Star</title>
 
-    <title>Creative S T A R</title>
+		<link rel="icon" href="assets/images/star.png">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="nivo-lightbox/nivo-lightbox.css">
-    <link rel="stylesheet" href="nivo-lightbox/nivo-lightbox-theme.css">
-    <link rel="stylesheet" href="css/main.css">
+		<!-- Bootstrap -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/ionicons.min.css">
+        <link rel="stylesheet" href="assets/nivo-lightbox/nivo-lightbox.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.css">
+        <link rel="stylesheet" href="assets/nivo-lightbox/nivo-lightbox-theme.css">
+        <link rel="stylesheet" href="assets/css/menu_topside.css">
+        <link href="assets/css/main.css" rel="stylesheet">
 
-  </head>
-  <body>
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
 
-    <!--== 4. Header ==-->
 
-        <section class="header" id="header">
-            <div class="navigationbar  navbar-fixed-top">
-                <div class="container">
-                    <a href="#" class="logo">
-                       creative star <i class="fa fa-star-o star"></i>
-                    </a>
-                    <i class="fa fa-bars pull-right" id="iconhideshow"></i>
-                    <ul class="nav hide nav-pills pull-right">
-                      <li role="presentation"><a href="#header">Home</a></li>
-                      <li role="presentation"><a href="#service">Services</a></li>
-                      <li role="presentation"><a href="#about">About</a></li>
-                      <li role="presentation"><a href="#works">Our Works</a></li>
-                      <li role="presentation"><a href="#meet">Meet With Us</a></li>
-                      <li role="presentation"><a href="#testimonial">Testimonial</a></li>
-                      <li role="presentation"><a href="#contact">Contact</a></li>
-                    </ul>
-                </div> <!-- /.container -->
-            </div> <!-- /.navigation-bar -->
-            <div class="header-description text-center">
-                <div class="header-content wow bounce animated">
-                    <h1 class="heading">agency template</h1>
-                    <p class="heading-subtitle">
-                        some slogan here
-                    </p> 
-                </div> <!-- /.header-content -->   
+
+	<body>
+
+    <div class="menu-wrap">
+        <nav class="menu-top">
+            <div class="profile"><img src="assets/images/logo.png" alt="logo"/></div>   
+        </nav>
+        <nav class="menu-side">
+            <a href="index.html">Home</a>
+            <a href="#service">Services</a>
+            <a href="#about">About</a>
+            <a href="#works">Our Works</a>
+            <a href="#meet">Meet With Us</a>
+            <a href="#testimonial">Testimonial</a>
+            <a href="#contact">Contact</a>
+
+            <div class="icon-list">
+                <a href="#"><i class="ion-social-facebook"></i></a>
+                <a href="#"><i class="ion-social-twitter"></i></a>
+                <a href="#"><i class="ion-social-linkedin"></i></a>
+                <a href="#"><i class="ion-social-instagram"></i></a>
+            </div>
+        </nav>
+    </div>
+    <button class="menu-button" id="open-button"></button>
+    <div class="content-wrap">
+        <div class="content">
             
-                <div class="wow zoomIn button-down" data-wow-duration="1s" data-wow-offset="100">
-                  <div class="wow tada" data-wow-delay="1s" data-wow-duration="1s">
-                    <div class="wow rubberBand" data-wow-delay="2000ms" data-wow-duration="1s">
-                      <div class="wow pulse" data-wow-delay="300ms" data-wow-iteration="infinite" data-wow-duration="2s">
-                        <a href="#service" title="Go down">
-                          <img src="images/button_downr.png" alt="MaterialUp" class="center">
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+        <!-- Header -->
+
+            <header id="header">
+                <div class="creative-star">
+                    <a href="index.html">
+                        <img src="assets/images/logo.png" class="pull-right" alt="logo">
+                    </a>
                 </div>
-            </div> <!-- /.header-description -->
-        </section> <!-- /#header -->
+                <div class="intro-box">
+                    <div class="intro">
+                        <h2 class="highlight">
+                            Turning Ideas<br>into Reality
+                        </h2>
+                    </div> <!-- /.intro -->
+                </div> <!-- /.intro-box -->
+            </header> <!-- /#header -->
 
-    <!--== 5. Our Service ==-->
+        <!-- Service -->
 
-        <section class="service" id="service">
-            <div class="wrapper">
-                <div class="container">
-                    <h2 class="section-title wow bounceInRight animated custom-white">our services</h2>
-                </div> <!-- /.container -->
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="service-content">
-                            <div class="container-fluid border-3">
-                                <div class="container border-2">
-                                    <div class="row">
-                                        <div class="col-sm-5 border-1">
-                                            <h4 class="subtitle custom-purple wow bounceInLeft center animated">What we do now?</h4>
+            <section id="service" class="service">
+                <div class="service-title">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h3 class="section-title">
+                                    What we do now?
+                                </h3>
+                            </div> <!-- /.col-sm-12 -->
+                        </div> <!-- /.row -->
+                    </div> <!-- /.container -->
+                </div> <!-- /.service-title -->
+                <div class="service-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                </p>
+                            </div> <!-- /.col-sm-6 -->
+                            <div class="col-sm-6 col-md-3">
+                                <div class="services">
+                                    <div class="service-item">
+                                        <div class="service-icon">
+                                            <span class="fa fa-pencil"></span>
+                                            <h4>design</h4>
                                         </div>
-                                        <div class="col-sm-7"></div>
-                                    </div> <!-- /.row -->
-                                </div> <!-- /.container -->
-                            </div> <!-- /.container-fluid -->
-                            <div class="container border-2">
-                                <div class="row .service-table">
-                                    <div class="col-sm-5 border-1 custom-purple .service-table-cell">
-                                        <p class="service-main-content wow pulse animated">
-                                            Lorem ipsum dolor sit amet, cadipiscing elit. Nullam dolor risus, efficitur ac ultricies quis, imperdiet sit amet nulla. dignissim mi insaer purus blandit, eget.
+                                        <div class="service-bar">
+                                            <div class="wrap">
+                                                <div class="progress-radial progress-90">
+                                                  <div class="overlay">90%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- /.col-sm-6 col-md-3 -->
+                            <div class="col-sm-6 col-md-3">
+                                <div class="services">
+                                    <div class="service-item">
+                                        <div class="service-icon">
+                                            <span class="fa fa-code"></span>
+                                            <h4>Development</h4>
+                                        </div>
+                                        <div class="service-bar">
+                                            <div class="wrap">
+                                                <div class="progress-radial progress-90">
+                                                  <div class="overlay">90%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- /.col-sm-6 col-md-3 -->
+                        </div> <!-- /.row -->
+                    </div> <!-- /.container -->
+                </div> <!-- /.service-content -->
+            </section> <!-- /#service -->
+
+        <!-- About -->
+
+            <section id="about" class="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-5">
+
+                            <div id="about_tab">
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li role="presentation" class="active">
+                                        <a href="#about_us" data-about-img="1" aria-controls="about_us" class="about-img-selector" role="tab" data-toggle="tab">About us</a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#mission" data-about-img="2" aria-controls="mission" class="about-img-selector" role="tab" data-toggle="tab">Mission</a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#different" data-about-img="3" aria-controls="different" class="about-img-selector" role="tab" data-toggle="tab">We're Different</a>
+                                    </li>
+                                </ul>
+
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane active" id="about_us">
+                                        <p>
+                                            Porro placeat ipsam repudiandae esse doloremque, eos consequatur eaque nesciunt earum maiores ipsum velit praesentium doloribus unde ea, aperiam dolor illo amet.
                                         </p>
-                                        <p class="service-main-content wow pulse animated">
-                                            Lorem ipsum dolor sit amet, cadipiscing elit. Nullam dolor risus, efficitur ac ultricies quis, imperdiet sit amet nulla.
+                                        <p>
+                                            Consectetur adipisicing elit. Nostrum eius adipisci, deserunt odio quidem impedit veniam quo deleniti tempore. Voluptas dolore, minus. Eligendi perspiciatis vel consectetur adipisicing elit. Porro placeat ipsam repudiandae esse doloremque.
                                         </p>
                                     </div>
-                                    <div class="col-sm-7 .service-table-cell">
-                                        <div class="row">
-                                            <div class="col-sm-4 text-center">
-                                                <a href="#">
-                                                    <div class="add wow bounceInRight animated" data-wow-delay=".6s">
-                                                        <i class="fa fa-android"></i>
-                                                        <p>
-                                                            ANDROID<br>DEVELOPMENT
-                                                        </p>
-                                                    </div>
-                                                </a>
-                                                <div class="demo">
-                                                    <div class="demo-4 wow flip animated" data-percent="90"></div>
-                                                </div>
-                                                <p class="custom-red text-center">
-                                                    90<br>Completed
-                                                </p>
-                                            </div> <!-- /.col-sm-4 -->
-                                            <div class="col-sm-4 text-center">
-                                                <a href="#">
-                                                    <div class="add wow bounceInRight animated" data-wow-delay="0.4s">
-                                                        <i class="fa fa-apple"></i>
-                                                        <p>
-                                                            iOS<br>DEVELOPMENT
-                                                        </p>
-                                                    </div>
-                                                </a>
-                                                <div class="demo">
-                                                    <div class="demo-4 wow flip animated" data-percent="75"></div>
-                                                </div>
-                                                <p class="custom-red text-center">
-                                                    75<br>Completed
-                                                </p>
-                                            </div> <!-- /.col-sm-4 -->
-                                            <div class="col-sm-4 text-center">
-                                                <a href="#">
-                                                    <div class="add wow bounceInRight animated" data-wow-delay="0.2s">
-                                                        <i class="fa fa-bullseye"></i>
-                                                        <p>
-                                                            OTHERS<br>DEVELOPMENT
-                                                        </p>
-                                                    </div>
-                                                </a>
-                                                <div class="demo">
-                                                    <div class="demo-4 wow flip animated" data-percent="85"></div>
-                                                </div>
-                                                <p class="custom-red text-center">
-                                                    85<br>Completed
-                                                </p>
-                                            </div> <!-- /.col-sm-4 -->
-                                        </div> <!-- /.row -->
-                                    </div> <!-- /.col-sm-7 -->
-                                </div> <!-- /.row -->
-                            </div> <!-- /.container -->
-                            <div class="container-fluid border-4">
-                                <div class="container border-2">
-                                    <div class="row">
-                                        <div class="col-sm-5 border-1 empty"></div>
-                                        <div class="col-sm-7 empty"></div>
-                                    </div> <!-- /.row -->
-                                </div> <!-- /.container -->
-                            </div> <!-- /.container-fluid -->
-                        </div> <!-- /.service-content -->
-                    </div> <!-- /.row -->
-                </div> <!-- /.container-fluid -->
-            </div> <!-- /.wrapper -->
-        </section> <!-- /#service -->
-    
-    <!--== 6. About Us ==-->
-    
-        <section id="about" class="about">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="about-table">
-                         <div class="col-md-4 col-sm-12 about-table-cell">
-                            <div class="about-content">
-                                <div class="wrapper">
-                                    <h2 class="section-title wow bounceInRight animated">about us</h2>
-                                    <p class="section-paragraph wow pulse animated">
-                                        Lorem ipsum dolor sit cadipiscing elit. Nullam dolor risuefficitu ultricies quis, imperdi nulladignissim minsaer purus blandit, eget.Sed maximus tortor. Etiam porta metus non tellus faucibus, sit amet porta urna euimdod. Maecenas semper augue at libero tempor, Maecenas semper augue at libero tempor, Maecenas semper augue at libero tempor, ut laoreet nisl dictum. Ut in quam a metus ornare ullamcorper et quis lacus. Sed a sapien maximus.
-                                    </p> <!-- /.section-paragraph -->
-                                </div> <!-- /.wrapper --> 
-                            </div> <!-- /.about-content -->
-                        </div>
-                        <div class="col-md-8 col-sm-12 about-table-cell" style="background:url(images/part_3_bg.jpg);background-size:cover;">
-                        </div>
-                    </div> <!-- /.about-table -->
-                </div> <!-- /.row -->
-            </div> <!-- /.container-fluid -->
-        </section> <!-- /#about -->
-    
-    <!--== 7. Our Works ==-->
+                                    <div role="tabpanel" class="tab-pane" id="mission">
+                                        <p>
+                                            Consectetur adipisicing elit. Nostrum eius adipisci, deserunt odio quidem impedit veniam quo deleniti tempore. Voluptas dolore, minus. Eligendi perspiciatis vel consectetur adipisicing elit. Porro placeat ipsam repudiandae esse doloremque.
+                                        </p>
+                                        <p>
+                                            Porro placeat ipsam repudiandae esse doloremque, eos consequatur eaque nesciunt earum maiores ipsum velit praesentium doloribus unde ea, aperiam dolor illo amet.
+                                        </p>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="different">
+                                        <p>
+                                            Nostrum eius adipisci, deserunt odio quidem impedit veniam quo deleniti tempore. Porro placeat ipsam repudiandae esse doloremque, eos consequatur eaque nesciunt earum maiores ipsum velit praesentium doloribus unde ea, aperiam dolor illo amet.
+                                        </p>
+                                        <p>
+                                            Consectetur adipisicing elit. Voluptas dolore, minus. Eligendi perspiciatis vel consectetur adipisicing elit. Porro placeat ipsam repudiandae esse doloremque.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div> <!-- /#about_tab -->
 
-        <section id="works" class="works">
-            <div class="wrapper">
+                        </div> <!-- /.col-sm-5 -->
+                        <div class="col-sm-12 col-md-7">
+                            <img src="assets/images/about.png" alt="about" class="img-responsive about-img about-img-1">
+                            <img src="assets/images/4.jpg" alt="about" class="img-responsive about-img about-img-2 hide">
+                            <img src="assets/images/6.jpg" alt="about" class="img-responsive about-img about-img-3 hide">
+                        </div> <!-- /.col-sm-7 -->
+                    </div> <!-- /.row -->
+                </div> <!-- /.container -->
+            </section> <!-- /#about -->
+        
+        <!-- Our Works -->
+
+            <section id="works" class="works text-center">
                 <div class="container">
-                <h2 class="section-title wow bounceInRight animated custom-white">our works</h2>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3 class="section-title">
+                                Our works
+                            </h3>
+                        </div> <!-- /.col-sm-12 -->
+                    </div> <!-- /.row -->
+
                     <div id="filters" class="button-group">
-                        <button class="filters-button wow bounceInLeft animated _active" data-wow-delay="0.0s" data-filter="*">all</button>
-                        <button class="filters-button wow bounceInLeft animated" data-wow-delay="0.1s" data-filter=".applications">applications</button>
-                        <button class="filters-button wow bounceInLeft animated" data-wow-delay="0.2s" data-filter=".illustration">illustration</button>
-                        <button class="filters-button wow bounceInLeft animated" data-wow-delay="0.3s" data-filter=".logo">logo</button>
-                        <button class="filters-button wow bounceInLeft animated" data-wow-delay="0.4s" data-filter=".music">music</button>
-                        <button class="filters-button wow bounceInLeft animated" data-wow-delay="0.5s" data-filter=".print">print</button>
-                        <button class="filters-button wow bounceInLeft animated" data-wow-delay="0.6s" data-filter=".web">web Design</button>
+                        <button class="filter active" data-filter="all">all</button>
+                        <button class="filter" data-filter=".applications">applications</button>
+                        <button class="filter" data-filter=".illustration">illustration</button>
+                        <button class="filter" data-filter=".logo">logo</button>
+                        <button class="filter" data-filter=".music">music</button>
+                        <button class="filter" data-filter=".print">print</button>
+                        <button class="filter" data-filter=".web">web Design</button>
                     </div>
                 </div> <!-- /.container -->
 
 
                 <div id="works_container">
-                    <div class="works-single-item applications illustration web">
-                        <img class="works-item" src="images/1.jpg">
+                    <div class="works-single-item mix applications illustration web">
+                        <img class="works-item" src="assets/images/1.jpg">
                         <div class="works-single-item-hover text-center">
                             <div class="works-icons">
-                                <a href="#"><i class="custom-icon fa fa-link"></i></a>
-                                <a class="portfolio-item" data-lightbox-gallery="our-works-item-view" href="images/1.jpg"><i class="custom-icon fa fa-search"></i></a>
+                                <a href="#"><i class="custom-icon ion-link"></i></a>
+                                <a class="portfolio-item" data-lightbox-gallery="our-works-item-view" href="assets/images/1.jpg"><i class="custom-icon ion-android-search"></i></a>
                             </div>
                             <div class="works-icons-content">
                                 Fullwidth Slideshow 
                             </div>
                         </div> <!-- /.works-single-item-hover -->
-                    </div> <!-- /.works-single-item -->
-                    <div class="works-single-item music">
-                    <img class="works-item" src="images/2.jpg">
+                    </div> <!-- /.works-single-item mix -->
+                    <div class="works-single-item mix music">
+                    <img class="works-item" src="assets/images/2.jpg">
                         <div class="works-single-item-hover text-center">
                             <div class="works-icons">
-                                <a href="#"><i class="custom-icon fa fa-link"></i></a>
-                                <a class="portfolio-item" data-lightbox-gallery="our-works-item-view" href="images/2.jpg"><i class="custom-icon fa fa-search"></i></a>
+                                <a href="#"><i class="custom-icon ion-link"></i></a>
+                                <a class="portfolio-item" data-lightbox-gallery="our-works-item-view" href="assets/images/2.jpg"><i class="custom-icon ion-android-search"></i></a>
                             </div>
                             <div class="works-icons-content">
                                 Fullwidth Slideshow 
                             </div>
                         </div> <!-- /.works-single-item-hover -->
-                    </div> <!-- /.works-single-item -->
-                    <div class="works-single-item applications">
-                    <img class="works-item" src="images/3.jpg">
+                    </div> <!-- /.works-single-item mix -->
+                    <div class="works-single-item mix applications">
+                    <img class="works-item" src="assets/images/3.jpg">
                         <div class="works-single-item-hover text-center">
                             <div class="works-icons">
-                                <a href="#"><i class="custom-icon fa fa-link"></i></a>
-                                <a class="portfolio-item" data-lightbox-gallery="our-works-item-view" href="images/3.jpg"><i class="custom-icon fa fa-search"></i></a>
+                                <a href="#"><i class="custom-icon ion-link"></i></a>
+                                <a class="portfolio-item" data-lightbox-gallery="our-works-item-view" href="assets/images/3.jpg"><i class="custom-icon ion-android-search"></i></a>
                             </div>
                             <div class="works-icons-content">
                                 Fullwidth Slideshow 
                             </div>
                         </div> <!-- /.works-single-item-hover -->
-                    </div> <!-- /.works-single-item -->
-                    <div class="works-single-item music print">
-                    <img class="works-item" src="images/4.jpg">                    
+                    </div> <!-- /.works-single-item mix -->
+                    <div class="works-single-item mix music print">
+                    <img class="works-item" src="assets/images/4.jpg">                    
                         <div class="works-single-item-hover text-center">
                             <div class="works-icons">
-                                <a href="#"><i class="custom-icon fa fa-link"></i></a>
-                                <a class="portfolio-item" data-lightbox-gallery="our-works-item-view" href="images/4.jpg"><i class="custom-icon fa fa-search"></i></a>
+                                <a href="#"><i class="custom-icon ion-link"></i></a>
+                                <a class="portfolio-item" data-lightbox-gallery="our-works-item-view" href="assets/images/4.jpg"><i class="custom-icon ion-android-search"></i></a>
                             </div>
                             <div class="works-icons-content">
                                 Fullwidth Slideshow 
                             </div>
                         </div> <!-- /.works-single-item-hover -->
-                    </div> <!-- /.works-single-item -->
-                    <div class="works-single-item applications logo">
-                    <img class="works-item" src="images/5.jpg"> 
+                    </div> <!-- /.works-single-item mix -->
+                    <div class="works-single-item mix applications logo">
+                    <img class="works-item" src="assets/images/5.jpg"> 
                         <div class="works-single-item-hover text-center">
                             <div class="works-icons">
-                                <a href="#"><i class="custom-icon fa fa-link"></i></a>
-                                <a class="portfolio-item" data-lightbox-gallery="our-works-item-view" href="images/5.jpg"><i class="custom-icon fa fa-search"></i></a>
+                                <a href="#"><i class="custom-icon ion-link"></i></a>
+                                <a class="portfolio-item" data-lightbox-gallery="our-works-item-view" href="assets/images/5.jpg"><i class="custom-icon ion-android-search"></i></a>
                             </div>
                             <div class="works-icons-content">
                                 Fullwidth Slideshow 
                             </div>
                         </div> <!-- /.works-single-item-hover -->
-                    </div> <!-- /.works-single-item -->
-                    <div class="works-single-item web">
-                    <img class="works-item" src="images/6.jpg">
+                    </div> <!-- /.works-single-item mix -->
+                    <div class="works-single-item mix web">
+                    <img class="works-item" src="assets/images/6.jpg">
                         <div class="works-single-item-hover text-center">
                             <div class="works-icons">
-                                <a href="#"><i class="custom-icon fa fa-link"></i></a>
-                                <a class="portfolio-item" data-lightbox-gallery="our-works-item-view" href="images/6.jpg"><i class="custom-icon fa fa-search"></i></a>
+                                <a href="#"><i class="custom-icon ion-link"></i></a>
+                                <a class="portfolio-item" data-lightbox-gallery="our-works-item-view" href="assets/images/6.jpg"><i class="custom-icon ion-android-search"></i></a>
                             </div>
                             <div class="works-icons-content">
                                 Fullwidth Slideshow 
                             </div>
                         </div> <!-- /.works-single-item-hover -->
-                    </div> <!-- /.works-single-item -->
-                </div> <!-- /#container -->
-            </div> <!-- /.wrapper -->
-        </section> <!-- /#works -->
+                    </div> <!-- /.works-single-item mix -->
+                    <div class="works-single-item mix music">
+                    <img class="works-item" src="assets/images/8.jpg">
+                        <div class="works-single-item-hover text-center">
+                            <div class="works-icons">
+                                <a href="#"><i class="custom-icon ion-link"></i></a>
+                                <a class="portfolio-item" data-lightbox-gallery="our-works-item-view" href="assets/images/8.jpg"><i class="custom-icon ion-android-search"></i></a>
+                            </div>
+                            <div class="works-icons-content">
+                                Fullwidth Slideshow 
+                            </div>
+                        </div> <!-- /.works-single-item-hover -->
+                    </div> <!-- /.works-single-item mix -->
+                    <div class="works-single-item mix applications">
+                    <img class="works-item" src="assets/images/9.jpg">
+                        <div class="works-single-item-hover text-center">
+                            <div class="works-icons">
+                                <a href="#"><i class="custom-icon ion-link"></i></a>
+                                <a class="portfolio-item" data-lightbox-gallery="our-works-item-view" href="assets/images/9.jpg"><i class="custom-icon ion-android-search"></i></a>
+                            </div>
+                            <div class="works-icons-content">
+                                Fullwidth Slideshow 
+                            </div>
+                        </div> <!-- /.works-single-item-hover -->
+                    </div> <!-- /.works-single-item mix -->
+                    <div class="works-single-item mix music print">
+                    <img class="works-item" src="assets/images/10.jpg">                    
+                        <div class="works-single-item-hover text-center">
+                            <div class="works-icons">
+                                <a href="#"><i class="custom-icon ion-link"></i></a>
+                                <a class="portfolio-item" data-lightbox-gallery="our-works-item-view" href="assets/images/10.jpg"><i class="custom-icon ion-android-search"></i></a>
+                            </div>
+                            <div class="works-icons-content">
+                                Fullwidth Slideshow 
+                            </div>
+                        </div> <!-- /.works-single-item-hover -->
+                    </div> <!-- /.works-single-item mix -->
+                    <div class="works-single-item mix applications logo">
+                    <img class="works-item" src="assets/images/11.jpg"> 
+                        <div class="works-single-item-hover text-center">
+                            <div class="works-icons">
+                                <a href="#"><i class="custom-icon ion-link"></i></a>
+                                <a class="portfolio-item" data-lightbox-gallery="our-works-item-view" href="assets/images/11.jpg"><i class="custom-icon ion-android-search"></i></a>
+                            </div>
+                            <div class="works-icons-content">
+                                Fullwidth Slideshow 
+                            </div>
+                        </div> <!-- /.works-single-item-hover -->
+                    </div> <!-- /.works-single-item mix -->
+                </div> <!-- /#works_container -->
+                <div class="pager-list">
+                    <!-- Pagination buttons will be generated here -->
+                </div>
+            </section> <!-- /#works -->
+        
+        <!-- Watch my flim -->
 
-    <!--== 8. Meet With Us ==-->
-        <section class="meet" id="meet">
-            <div class="container">  
-                <div class="wrapper">
-                    <h2 class="section-title block-title wow animated bounceInRight animated custom-black">meet with us</h2>
+            <section id="watct_flim">
+                <div class="watch-box">
+                    <div class="watch_inner">
+                        <div class="watch">
+                            Watch my film <span class="ion-ios-play-outline"></span>
+                        </div>
+                        <iframe id="watch-video" class="hide iframe" src="https://player.vimeo.com/video/30967083?api=1&player_id=watch-video"frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <div class="close-video hide">
+                            Close <span class="ion-android-close"></span>
+                        </div>
+                    </div> <!-- /.watch_inner -->
+                </div> <!-- /.watch-box -->
+            </section> <!-- /#watct_flim -->
+
+        <!-- Call to Action -->
+
+            <section id="cta" class="cta cta-1">
+                <div class="container">
                     <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <h4>
+                                For an intensely customized service
+                            </h4>
+                            <a href="quote.html" target="_blink" class="btn btn-default star-btn">
+                                Request a quote
+                            </a>
+                        </div> <!-- /.col-sm-12 -->
+                    </div> <!-- /.row -->
+                </div> <!-- /.container -->
+            </section> <!-- /#cta -->
+
+        <!-- Meet me & my friends -->
+
+            <section class="meet" id="meet">
+                <div class="container">  
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3 class="section-title">Meet me &amp; my friends</h3>
+                        </div>
+                    </div> <!-- /.row -->    
+                    <div class="row text-center">
                         <div class="col-sm-4">
-                            <div class="meet-item-bg wow pulse animated text-center">
-                                <div class="meet-item text-center">
+                            <div class="meet-item-bg">
+                                <div class="meet-item">
                                     <div class="meet-single-item wow bounceInDown animated">
-                                    <img src="images/m_01.jpg" alt="Meet">
+                                    <img src="assets/images/m_01.jpg" alt="Meet">
                                         <div class="meet-icons">
-                                            <a href="#"><i class="custom-icon fa fa-twitter"></i></a>
-                                            <a href="#"><i class="custom-icon fa fa-facebook"></i></a>
-                                            <a href="#"><i class="custom-icon fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="custom-icon fa fa-linkedin"></i></a>
+                                            <a href="#">
+                                                <div>
+                                                    <i class="ion-social-twitter"></i>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div>
+                                                    <i class="ion-social-facebook"></i>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div>
+                                                    <i class="ion-social-googleplus"></i>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div>
+                                                    <i class="ion-social-linkedin"></i>
+                                                </div>
+                                            </a>
                                         </div> <!-- /.meet-icons -->
                                     </div> <!-- /.meet-single-item -->
-                                    <div class="meet-item-content custom-white wow bounceInUp animated">
-                                        <h6 class="meet-item-name">Reen Scot</h6>
-                                        <p class="meet-item-sub custom-black">founder</p>
-                                        <p class="meet-item-about">
-                                            Lorem ipsum dolor sit cadipiscing elit.
-                                        </p>
+                                    <div class="meet-item-content">
+                                        <h4>Reen Scot</h4>
+                                        <p class="meet-item-sub">Web Designer</p>
                                     </div> <!-- /.meet-item-content -->
                                 </div> <!-- /.meet-item -->
                             </div> <!-- /.meet-item-bg -->
                         </div> <!-- /.col-sm-4 -->
                         <div class="col-sm-4">
-                            <div class="meet-item-bg wow pulse animated text-center">
-                                <div class="meet-item text-center">
+                            <div class="meet-item-bg">
+                                <div class="meet-item">
                                     <div class="meet-single-item wow bounceInDown animated">
-                                    <img src="images/m_02.jpg" alt="Meet">
+                                    <img src="assets/images/m_02.jpg" alt="Meet">
                                         <div class="meet-icons">
-                                            <a href="#"><i class="custom-icon fa fa-twitter"></i></a>
-                                            <a href="#"><i class="custom-icon fa fa-facebook"></i></a>
-                                            <a href="#"><i class="custom-icon fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="custom-icon fa fa-linkedin"></i></a>
+                                            <a href="#">
+                                                <div>
+                                                    <i class="ion-social-twitter"></i>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div>
+                                                    <i class="ion-social-facebook"></i>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div>
+                                                    <i class="ion-social-googleplus"></i>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div>
+                                                    <i class="ion-social-linkedin"></i>
+                                                </div>
+                                            </a>
                                         </div> <!-- /.meet-icons -->
                                     </div> <!-- /.meet-single-item -->
-                                    <div class="meet-item-content custom-white wow bounceInUp animated">
-                                        <h6 class="meet-item-name">Reen Scot</h6>
-                                        <p class="meet-item-sub custom-black">founder</p>
-                                        <p class="meet-item-about">
-                                            Lorem ipsum dolor sit cadipiscing elit.
-                                        </p>
+                                    <div class="meet-item-content">
+                                        <h4>Tescan Lee</h4>
+                                        <p class="meet-item-sub">Game Designer</p>
                                     </div> <!-- /.meet-item-content -->
                                 </div> <!-- /.meet-item -->
                             </div> <!-- /.meet-item-bg -->
                         </div> <!-- /.col-sm-4 -->
                         <div class="col-sm-4">
-                            <div class="meet-item-bg wow pulse animated text-center">
-                                <div class="meet-item text-center">
+                            <div class="meet-item-bg">
+                                <div class="meet-item">
                                     <div class="meet-single-item wow bounceInDown animated">
-                                    <img src="images/m_03.jpg" alt="Meet">
+                                    <img src="assets/images/m_03.jpg" alt="Meet">
                                         <div class="meet-icons">
-                                            <a href="#"><i class="custom-icon fa fa-twitter"></i></a>
-                                            <a href="#"><i class="custom-icon fa fa-facebook"></i></a>
-                                            <a href="#"><i class="custom-icon fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="custom-icon fa fa-linkedin"></i></a>
+                                            <a href="#">
+                                                <div>
+                                                    <i class="ion-social-twitter"></i>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div>
+                                                    <i class="ion-social-facebook"></i>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div>
+                                                    <i class="ion-social-googleplus"></i>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div>
+                                                    <i class="ion-social-linkedin"></i>
+                                                </div>
+                                            </a>
                                         </div> <!-- /.meet-icons -->
                                     </div> <!-- /.meet-single-item -->
-                                    <div class="meet-item-content custom-white wow bounceInUp animated">
-                                        <h6 class="meet-item-name">Reen Scot</h6>
-                                        <p class="meet-item-sub custom-black">founder</p>
-                                        <p class="meet-item-about">
-                                            Lorem ipsum dolor sit cadipiscing elit.
-                                        </p>
+                                    <div class="meet-item-content">
+                                        <h4>Abbrot Leas</h4>
+                                        <p class="meet-item-sub">Apps Developer</p>
+                                    </div> <!-- /.meet-item-content -->
+                                </div> <!-- /.meet-item -->
+                            </div> <!-- /.meet-item-bg -->
+                        </div> <!-- /.col-sm-4 -->
+                        <div class="col-sm-4">
+                            <div class="meet-item-bg">
+                                <div class="meet-item">
+                                    <div class="meet-single-item wow bounceInDown animated">
+                                    <img src="assets/images/m_02.jpg" alt="Meet">
+                                        <div class="meet-icons">
+                                            <a href="#">
+                                                <div>
+                                                    <i class="ion-social-twitter"></i>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div>
+                                                    <i class="ion-social-facebook"></i>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div>
+                                                    <i class="ion-social-googleplus"></i>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div>
+                                                    <i class="ion-social-linkedin"></i>
+                                                </div>
+                                            </a>
+                                        </div> <!-- /.meet-icons -->
+                                    </div> <!-- /.meet-single-item -->
+                                    <div class="meet-item-content">
+                                        <h4>Tescan Lee</h4>
+                                        <p class="meet-item-sub">Game Designer</p>
+                                    </div> <!-- /.meet-item-content -->
+                                </div> <!-- /.meet-item -->
+                            </div> <!-- /.meet-item-bg -->
+                        </div> <!-- /.col-sm-4 -->
+                        <div class="col-sm-4">
+                            <div class="meet-item-bg">
+                                <div class="meet-item">
+                                    <div class="meet-single-item wow bounceInDown animated">
+                                    <img src="assets/images/m_03.jpg" alt="Meet">
+                                        <div class="meet-icons">
+                                            <a href="#">
+                                                <div>
+                                                    <i class="ion-social-twitter"></i>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div>
+                                                    <i class="ion-social-facebook"></i>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div>
+                                                    <i class="ion-social-googleplus"></i>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div>
+                                                    <i class="ion-social-linkedin"></i>
+                                                </div>
+                                            </a>
+                                        </div> <!-- /.meet-icons -->
+                                    </div> <!-- /.meet-single-item -->
+                                    <div class="meet-item-content">
+                                        <h4>Abbrot Leas</h4>
+                                        <p class="meet-item-sub">Apps Developer</p>
                                     </div> <!-- /.meet-item-content -->
                                 </div> <!-- /.meet-item -->
                             </div> <!-- /.meet-item-bg -->
                         </div> <!-- /.col-sm-4 -->
                     </div> <!-- /.row -->
-                </div> <!-- /.wrapper -->
-            </div> <!-- /.container -->
-        </section> <!-- /#meet -->
+                </div> <!-- /.container -->
+            </section> <!-- /#meet -->
 
-    <!--== 9. Testimonial ==-->
-        <section id="testimonial" class="testimonial">
-            <div class="wrapper">
-                <div class="container">  
+        <!-- Quote -->
+
+            <section id="quote" class="quote">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-sm-offset-1 text-center">
+                            <h2 class="highlight">
+                                Creativity is what happens when your soul sing
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- Our Price Plan -->
+
+            <section id="price" class="price">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3 class="section-title">
+                                Our Price Plan
+                            </h3>
+                        </div> <!-- /.col-sm-12 -->
+                    </div> <!-- /.row -->
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <ul>
+                                <li>
+                                    <h4>Print</h4>
+                                    <p>$90/m</p>
+                                </li>
+                                <li>3 logos</li>
+                                <li>3 Business cards (PSD/AI)</li>
+                                <li>3 Brochure (PSD/AI)</li>
+                                <li>3 Flyers (PSD/AI)</li>
+                            </ul>
+                            <a href="#" class="btn btn-default">Order Now</a>
+                        </div> <!-- /.col-sm-4 -->
+                        <div class="col-sm-4">
+                            <ul>
+                                <li>
+                                    <h4>WEB</h4>
+                                    <p>$180/m</p>
+                                </li>
+                                <li>3 logos</li>
+                                <li>3 Website Template (PSD)</li>
+                                <li>3 Static Website (PSD to HTML)</li>
+                                <li>3 Working Contact Form (PHP)</li>
+                            </ul>
+                            <a href="#" class="btn btn-default">Order Now</a>
+                        </div> <!-- /.col-sm-4 -->
+                        <div class="col-sm-4">
+                            <ul>
+                                <li>
+                                    <h4>Apps</h4>
+                                    <p>$430/m</p>
+                                </li>
+                                <li>3 Games Reskin</li>
+                                <li>1 Full Apps</li>
+                                <li>1 Apps Landingpage</li>
+                                <li>10 Tags Content Research</li>
+                            </ul>
+                            <a href="#" class="btn btn-default">Order Now</a>
+                        </div> <!-- /.col-sm-4 -->
+                    </div> <!-- /.row -->
+                </div> <!-- /.container -->
+            </section> <!-- /#price -->
+
+        <!-- Call to Action -->
+
+            <section id="cta" class="cta cta-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <h4>
+                                For an intensely customized service
+                            </h4>
+                            <a href="quote.html" target="_blink" class="btn btn-default star-btn">
+                                Request a quote
+                            </a>
+                        </div> <!-- /.col-sm-12 -->
+                    </div> <!-- /.row -->
+                </div> <!-- /.container -->
+            </section> <!-- /#cta -->
+
+        <!-- Testimonial -->
+            <section id="testimonial" class="testimonial">
+                <div class="container">
                     <div class="testimonial-content">
                         <div class="row">
-                            <div class="col-md-6">
-                                <div id="owl-demo" class="owl-carousel owl-theme">
-                                    <div class="item wrapper custom-white">
+                            <div class="col-sm-6">
+                                <div id="testimonial_slider">
+                                    <div class="item">
                                         <div class="row">
-                                            <div class="col-md-4">
-                                                <img src="images/test_01.jpg" alt="test">
+                                            <div class="col-sm-4">
+                                                <img src="assets/images/m_01.jpg" alt="test">
                                             </div>
-                                            <div class="col-md-8">
+                                            <div class="col-sm-8">
                                                 <h3 class="test-name">Jone doe</h3>
                                                 <p class="name-title">
                                                     web developer
                                                 </p>
                                                 <p>
-                                                    Lorem Ipsum is simply dummy text of theinting and pesetting industry. Lorem Ipsum has been the 
+                                                    Lorem Ipsum is simply dummy text of theinting and pesetting industry.
                                                 </p>
                                                 <p>
-                                                    Ipsum is simply dummy text of theinting and pesetting industry. Lorem Ipsum has been the pesetting doccr.  
+                                                    Ipsum is simply dummy text of theinting and pesetting industry.pesetting doccr.  
                                                 </p>
                                             </div>
                                         </div> <!-- /.row -->
                                     </div> <!-- /.item -->
-                                    <div class="item wrapper custom-white">
+                                    <div class="item">
                                         <div class="row">
-                                            <div class="col-md-4">
-                                                <img src="images/test_02.jpg" alt="test">
+                                            <div class="col-sm-4">
+                                                <img src="assets/images/m_02.jpg" alt="test">
                                             </div>
-                                            <div class="col-md-8">
+                                            <div class="col-sm-8">
                                                 <h3 class="test-name">Jone doe</h3>
                                                 <p class="name-title">
                                                     web developer
                                                 </p>
                                                 <p>
-                                                    Lorem Ipsum is simply dummy text of theinting and pesetting industry. Lorem Ipsum has been the 
+                                                    Lorem Ipsum is simply dummy text of theinting and pesetting industry.
                                                 </p>
                                                 <p>
-                                                    Ipsum is simply dummy text of theinting and pesetting industry. Lorem Ipsum has been the pesetting doccr.  
+                                                    Ipsum is simply dummy text of theinting and pesetting industry.pesetting doccr.  
                                                 </p>
                                             </div>
                                         </div> <!-- /.row -->
                                     </div> <!-- /.item -->
-                                    <div class="item wrapper custom-white">
+                                    <div class="item">
                                         <div class="row">
-                                            <div class="col-md-4">
-                                                <img src="images/test_03.jpg" alt="test">
+                                            <div class="col-sm-4">
+                                                <img src="assets/images/m_03.jpg" alt="test">
                                             </div>
-                                            <div class="col-md-8">
+                                            <div class="col-sm-8">
                                                 <h3 class="test-name">Jone doe</h3>
                                                 <p class="name-title">
                                                     web developer
                                                 </p>
                                                 <p>
-                                                    Lorem Ipsum is simply dummy text of theinting and pesetting industry. Lorem Ipsum has been the 
+                                                    Lorem Ipsum is simply dummy text of theinting and pesetting industry.
                                                 </p>
                                                 <p>
-                                                    Ipsum is simply dummy text of theinting and pesetting industry. Lorem Ipsum has been the pesetting doccr.  
+                                                    Ipsum is simply dummy text of theinting and pesetting industry.pesetting doccr.  
                                                 </p>
                                             </div>
                                         </div> <!-- /.row -->
                                     </div> <!-- /.item -->
-                                </div> <!-- /#owl-demo -->   
-                            </div> <!-- /.col-md-6 -->
-                            <div class="col-md-6 clients-logo">
-                                <a href="#"><img src="images/logo_01.png" alt="logo-test" class="img-responsive img-logo"></a>
-                                <a href="#"><img src="images/logo_02.png" alt="logo-test" class="img-responsive img-logo"></a>
-                                <a href="#"><img src="images/logo_03.png" alt="logo-test" class="img-responsive img-logo"></a>
-                                <a href="#"><img src="images/logo_04.png" alt="logo-test" class="img-responsive img-logo"></a>
-                                <a href="#"><img src="images/logo_05.png" alt="logo-test" class="img-responsive img-logo"></a>
-                                <a href="#"><img src="images/logo_06.png" alt="logo-test" class="img-responsive img-logo"></a>
-                            </div> <!-- /.col-md-6 -->
+                                </div> <!-- /#testimonial_slider -->
+                            </div> <!-- /.col-sm-6 -->
+                            <div class="col-sm-6">
+                                <a href="#"><img src="assets/images/logo_01.png" alt="logo-test" class="img-responsive img-logo"></a>
+                                <a href="#"><img src="assets/images/logo_02.png" alt="logo-test" class="img-responsive img-logo"></a>
+                                <a href="#"><img src="assets/images/logo_03.png" alt="logo-test" class="img-responsive img-logo"></a>
+                                <a href="#"><img src="assets/images/logo_04.png" alt="logo-test" class="img-responsive img-logo"></a>
+                                <a href="#"><img src="assets/images/logo_05.png" alt="logo-test" class="img-responsive img-logo"></a>
+                                <a href="#"><img src="assets/images/logo_06.png" alt="logo-test" class="img-responsive img-logo"></a>
+                            </div> <!-- /.col-sm-6 -->
                         </div> <!-- /.row -->
                     </div> <!-- /.testimonial-content -->
                 </div> <!-- /.container -->
-            </div> <!-- /.wrapper -->
-        </section> <!-- /#testimonial -->
+            </section> <!-- /#testimonial -->
+        
+        <!-- Contact with us -->
 
-    <!--== 10. Contact With Us ==-->
-
-        <section class="contact" id="contact">
-            <div class="contact-content">
-                <div class="wrapper">
-                    <div class="container">
-                        <h2 class="section-title wow bounceInRight animated custom-black">contact with us</h2>
-                        <div class="row">
-                            <div class="col-sm-6 clearfix">
-                                <p class="address wow pulse animated">
-                                    House-3 Road-2, Akhalia Ghate R/A, Sylhet <br>
-                                    <strong>Call: </strong>+000-444-222-555 <br>
-                                    <strong>Fax: </strong>+000-444-222-555 <br>
-                                    <strong>E-mail: </strong>+example@email.com <br>
-                                    <strong>Web: </strong><a href="http://www.themewagon.com">www.themewagon.com</a>
-                                </p>
-                                <ul class="social-icons text-center">
-                                    <li class="wow animated fadeInLeft facebook animated">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                    </li>
-                                    <li class="wow animated fadeInRight twitter animated">
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                    </li>
-                                    <li class="wow animated fadeInLeft linkedin animated">
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    </li>
-                                    <li class="wow animated fadeInRight googleplus animated">
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    </li>
-                                    <li class="wow animated fadeInLeft github animated">
-                                        <a href="#"><i class="fa fa-github"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-6">
-                                <form class="_form-inline row" id="contact-form" name="contact" method="post" action="contact.php">
-                                    <div class="form-group custom-form-group col-sm-6">
-                                        <label class="sr-only" for="name" id="name"><span class="required">*</span>Name</label>
-                                        <input type="text" class="form-control custom-form-control wow bounceInLeft animated" name="name" id="name" placeholder="Enter your name" required>
+            <section id="contact" class="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3 class="section-title">
+                                Contact with Us
+                            </h3>
+                        </div> <!-- /.col-sm-12 -->
+                    </div> <!-- /.row -->
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <ul>
+                                <li>House-3 Road-2, Akhalia Ghate R/A, Sylhet, Bangladesh</li>
+                                <li><span>Call:</span> +000-444-222-555</li>
+                                <li><span>Fax:</span> +000-444-222-555</li>
+                                <li><span>E-mail:</span> +example@email.com</li>
+                                <li><span>Web:</span> www.themewagon.com</li>
+                            </ul>
+                        </div> <!-- /.col-sm-6 -->
+                        <div class="col-sm-6">
+                            <div id="contactFormResponse"></div>
+                            <form action="php/contact.php" id="contactForm" method="post">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Enter your name" id="name" name="name" required>
+                                        </div> <!-- /.form-group -->
+                                    </div> <!-- /.col-sm-12 col-md-6 -->
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" placeholder="Enter your email" id="email" name="email" required>
+                                        </div> <!-- /.form-group -->
+                                    </div> <!-- /.col-sm-12 col-md-6 -->
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control" rows="3" placeholder="Write something" name="message"></textarea>
+                                        </div> <!-- /.form-group -->
+                                    </div> <!-- /.col-sm-12 -->
+                                    <div class="text-right col-sm-6 col-sm-offset-6">
+                                        <button type="submit" class="btn star-btn" id="cfsubmit">Say Hello</button>
                                     </div>
-                                    
-                                    <div class="form-group custom-form-group col-sm-6">
-                                        <label class="sr-only" for="email" id="email"><span class="required">*</span>Email</label>
-                                        <input type="email" class="form-control custom-form-control wow bounceInRight animated" id="email" name="email" placeholder="Enter your email" required>
-                                    </div>
-                                    <div class="form-group custom-form-group col-sm-12">
-                                        <label class="sr-only" for="text-massage"><span class="required">*</span>Massage</label>
-                                        <textarea  class="form-control custom-form-control wow bounceInUp animated" id="text-massage" name="text-massage" rows="3" placeholder="Write something" required></textarea>
-                                    </div>
+                                </div> <!-- /.row -->
+                            </form> <!-- /#contactForm -->
+                        </div> <!-- /.col-sm-6 -->
+                    </div> <!-- /.row -->
+                </div> <!-- /.container -->
+            </section> <!-- /#contact -->
 
-                                    <button type="submit" class="pull-right btn btn-default submit-button custom-white wow bounceInLeft animated" id="submit" name="submit" value="Send">Say Hello</button>
-                                </form>
-                                <div id="success">
-                                    <span>
-                                        <p>Your message was sent succssfully! I will be in touch as soon as I can.</p>
-                                    </span>
-                                </div>
+        <!-- Footer -->
 
-                                <div id="error">
-                                    <span>
-                                        <p>Something went wrong, try refreshing and submitting the form again.</p>
-                                     </span>
-                                </div>
-                            </div> 
-                        </div> <!-- /.row -->
-                    </div> <!-- /.container -->
-                </div> <!-- /.wrapper -->
-                <footer class="custom-red text-center wow flip animated">
-                    &copy;Copyright <a href="#"><strong>Your Website Link</strong></a> 2015. Theme by <a href="http://www.themewagon.com"><strong>ThemeWagon</strong></a>
-                </footer>
-            </div> <!-- /.contact-content -->
-        </section> <!-- /#contact -->
-        <a href="#header" id="back-to-top" class="top"><i class="fa fa-chevron-up"></i></a>
+            <footer>
+                <div class="container">
+                    <div class="col-sm-6">
+                        &copy; 2016 <a href="#">Creative Star</a>
+                    </div>
+                    <div class="col-sm-6">
+                        Theme by <a href="https://themewagon.com/">themewagon</a>
+                    </div>
+                </div>
+            </footer>
+
+        </div> <!-- /.content -->
+    </div> <!-- /.content-wrap -->
     
         
 
 
-    <script src="js/jquery-1.11.2.min.js"></script>
-    <script src="js/jquery.circlechart.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/jquery.validate.js"></script>
-    <script src="nivo-lightbox/nivo-lightbox.min.js"></script>
-    <script src="js/script.js"></script>
 
-  </body>
+
+		<script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/nivo-lightbox/nivo-lightbox.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/jquery.mixitup.min.js"></script>
+        <script src="assets/js/jquery.mixitup-pagination.min.js"></script>
+        <script src="assets/js/froogaloop2.min.js"></script>
+        <script src="assets/js/classie.js"></script>
+        <script src="assets/js/main.js"></script>
+		<script src="assets/js/script.js"></script>
+
+	</body>
 </html>
